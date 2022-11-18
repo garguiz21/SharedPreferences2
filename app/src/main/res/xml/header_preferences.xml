@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="com.example.sharedpreferences2.SettingsActivity$BasicFragment"
+        app:key="basic_format"
+        app:title="Basic Format" />
+
+    <Preference
+        app:fragment="com.example.sharedpreferences2.SettingsActivity$AdvancedFragment"
+        app:key="advanced_format"
+        app:title="Advanced Format" />
+
+</PreferenceScreen>

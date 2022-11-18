@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        app:defaultValue="24"
+        app:entries="@array/size_entries"
+        app:entryValues="@array/size_entries"
+        app:key="text_size"
+        app:title="Size"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:defaultValue="black"
+        app:entries="@array/color_entries"
+        app:entryValues="@array/color_values"
+        app:key="fg_color"
+        app:title="FG color"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:defaultValue="white"
+        app:entries="@array/color_entries"
+        app:entryValues="@array/color_values"
+        app:key="bg_color"
+        app:title="BG color"
+        app:useSimpleSummaryProvider="true" />
+
+    <SwitchPreference
+        app:key="bold"
+        app:title="Bold" />
+
+    <SwitchPreference
+        app:key="italic"
+        app:title="Italic" />
+
+
+</PreferenceScreen>
